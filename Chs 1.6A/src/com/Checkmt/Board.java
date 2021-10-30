@@ -12,6 +12,7 @@ public class Board implements java.io.Serializable {
 	Tool blackKingPos = null;
 	byte firstPositionTool[] = new byte[2];
 
+	// Eli 30/10/2021
 	public Board(Tool brd[][], Weights w) {
 		initBoard(brd, w);
 		return;
