@@ -14,3 +14,4 @@ public class Coords implements Serializable {
 	short y;
 
 }
+// ------------

@@ -133,4 +133,14 @@ public class BoardsInitPositions {
 			{ null, null, null, null, null, null, new ToolPion(BLACK), new ToolPion(BLACK) },
 			{ null, null, null, null, null, null, null, new ToolKing(BLACK) } };
 
+	static Tool test98765[][] = { { null, null, null, null, null, null, null, null },
+			{ null, new ToolTura(BLACK), null, null, null, null, new ToolPion(WHITE),
+					new ToolPion(WHITE) },
+			{ new ToolHorse(BLACK), new ToolKing(WHITE), null, null, null, null, null, null },
+			{ null, null, null, null, null, null, null, null },
+			{ null, null, null, null, null, null, null, null },
+			{ null, null, null, null, null, null, null, null },
+			{ null, null, null, null, null, null, new ToolPion(BLACK), new ToolPion(BLACK) },
+			{ null, null, null, null, null, null, null, new ToolKing(BLACK) } };
+
 }
