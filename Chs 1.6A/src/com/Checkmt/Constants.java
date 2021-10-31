@@ -5,3 +5,4 @@ public class Constants {
 	public static final boolean BLACK = false;
 
 }
+// ----------------
