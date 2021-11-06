@@ -27,7 +27,7 @@ public class Board implements java.io.Serializable {
 	public void printBoard(Movement lastMovement) {
 		System.out.println();
 		System.out.println(
-				" -------------------------------------------------------------------------------------------------");
+				" --------------------------------------------------------------------------------------------------");
 		for (int y = 7; y >= 0; y--) {
 			System.out.println(
 					" |           |           |           |           |           |           |           |           |");
@@ -44,7 +44,7 @@ public class Board implements java.io.Serializable {
 			System.out.println(
 					" |           |           |           |           |           |           |           |           |");
 			System.out.println(
-					" -------------------------------------------------------------------------------------------------");
+					" --------------------------------------------------------------------------------------------------");
 
 		}
 		System.out.print("  ");
